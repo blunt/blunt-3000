@@ -1,0 +1,18 @@
+<svg width="270" height="233" viewBox="0 0 270 233" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+  <title>triangle</title>
+  <desc>Created using Figma</desc>
+  <g id="Canvas" transform="translate(-32349 -9869)" figma:type="canvas">
+    <g id="triangle" figma:type="frame">
+      <g id="Polygon" figma:type="vector">
+        <use xlink:href="#path0_fill" transform="translate(32366.1 9883.23)" fill="#FE4988"/>
+      </g>
+      <g id="Polygon (Stroke)" figma:type="vector">
+        <use xlink:href="#path1_fill" transform="translate(32349.8 9869.12)" fill="#111111"/>
+      </g>
+    </g>
+  </g>
+  <defs>
+    <path id="path0_fill" d="M 118.138 0L 236.276 204.621L 0 204.621L 118.138 0Z"/>
+    <path id="path1_fill" fill-rule="evenodd" d="M 134.433 0L 122.886 20L 11.547 212.845L 0 232.845L 23.094 232.845L 245.772 232.845L 268.866 232.845L 257.319 212.845L 145.98 20L 134.433 0ZM 134.433 40L 34.641 212.845L 234.225 212.845L 134.433 40Z"/>
+  </defs>
+</svg>

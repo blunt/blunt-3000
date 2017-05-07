@@ -1,0 +1,235 @@
+body {
+  font-family: "maiola", Georgia, Times, serif;
+}
+
+::-moz-selection {
+  color: #111;
+  background: #FFCF1B;
+}
+
+::selection {
+  color: #111;
+  background: #FFCF1B;
+}
+
+.sans {
+  font-family: "acumin-pro-wide", -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+  font-weight: 900;
+}
+
+.intro {
+  transform: rotate(-2deg);
+  -webkit-backface-visibility: hidden;
+  -webkit-background-clip: padding-box;
+}
+
+.outline-text {
+  -webkit-text-stroke-width: .1rem;
+  -webkit-text-stroke-color: white;
+  letter-spacing: .1rem;
+}
+
+.outline-text.link:active {
+  color: #111;
+  transition: all 0s;
+}
+
+.normal-link.link:active {
+  -webkit-text-stroke-width: .05rem;
+  -webkit-text-stroke-color: white;
+  transition: all 0s;
+  color:#111;
+}
+
+.logo span {
+  text-indent: -9999px;
+}
+
+.in-mind {
+  list-style: none;
+  padding-left: 2rem;
+}
+
+.in-mind li {
+  padding-left: 2.5rem;
+}
+
+.in-mind li:before {
+  content: "❶";
+  position: absolute;
+  text-align: right;
+  left: -.75rem;
+  font-family: "acumin-pro-wide", -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+  font-weight: 900;
+}
+
+@media (min-width: 60em) {
+  .mtn5 {
+    margin-top: -4rem;
+  }
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.in-mind li.two:before {
+  content: "❷";
+}
+
+.in-mind li.three:before {
+  content: "❸";
+}
+
+.work-with {
+  border-color: #fff;
+}
+
+a, .link:link {
+  transition: all .2s ease-in;
+}
+
+a:hover {
+  border-color: transparent;
+  transition: all .2s ease-in;
+}
+
+/* Shapes */
+
+.circle {
+  right: -3rem;
+  top: .2rem;
+}
+
+.swirl {
+  bottom: 7rem;
+  left: -2.6rem;
+  width: 28%;
+}
+
+.curve {
+  bottom: 7rem;
+  right: -1rem;
+}
+
+.us {
+  bottom: -8rem;
+  right: 0;
+  width: 60%;
+}
+
+.hex {
+  left: 50%;
+  top: 5rem;
+  transform: translateX(-50%);
+  pointer-events: none;
+  width: 40%;
+}
+
+.curve-2 {
+  bottom: -2rem;
+  right: -5rem;
+  width: 80%;
+}
+
+.zigzag {
+  bottom: -4rem;
+  left: -2rem;
+  width: 60%;
+}
+
+.triangle {
+  top: -3rem;
+  left:-7rem;
+  transform: rotate(-52deg);
+  width: 60%;
+}
+
+@media (min-width: 30em) {
+  .swirl {
+    bottom: 10rem;
+    left: .5rem;
+    width: 24%;
+  }
+  .curve {
+    bottom: 10rem;
+    right: 2rem;
+    width: 35%;
+  }
+  .circle {
+    right: 3rem;
+    top: 0;
+    width: 25%;
+  }
+  .us {
+    bottom: -5rem;
+    right: 0;
+    width: 40%;
+  }
+  .hex {
+    left: 50%;
+    top: 2rem;
+    transform: translateX(-50%);
+    pointer-events: none;
+    width: 40%;
+  }
+  .curve-2 {
+    bottom: -7rem;
+    right: -10rem;
+    width: 60%;
+  }
+  .zigzag {
+    bottom: -13rem;
+    left: -10rem;
+    width: 70%;
+  }
+  .triangle {
+    top: -1rem;
+    left: -8rem;
+    width: auto;
+  }
+}
+
+@media (min-width: 60em) {
+  .swirl {
+    bottom: 20rem;
+    left: 5vw;
+    width: 24%;
+  }
+  .curve {
+    bottom: 20rem;
+    right: 2rem;
+    width: 35%;
+  }
+  .circle {
+    right: 15rem;
+    top: 0;
+    width: 20%;
+  }
+  .us {
+    bottom: -5rem;
+    right: 0;
+    width: auto;
+  }
+  .hex {
+    left: 50%;
+    top: -2rem;
+    transform: translateX(-55%);
+    pointer-events: none;
+  }
+  .curve-2 {
+    bottom: -24rem;
+    right: -17rem;
+    width: auto;
+  }
+  .zigzag {
+    bottom: -13rem;
+    left: 0;
+    width: 50%;
+  }
+  .triangle {
+    top: -1rem;
+    left: 4rem;
+    width: auto;
+  }
+}
